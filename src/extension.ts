@@ -79,6 +79,10 @@ export function activate(context: vscode.ExtensionContext) {
         return 'python';
       case 'javascript':
         return 'javascript';
+      case 'php':
+        return 'php';
+      case 'rust':
+        return 'rust';
       default:
         return undefined;
     }
