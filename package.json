@@ -2,7 +2,7 @@
   "name": "my-extension",
   "displayName": "My Extension",
   "description": "Description of my extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "your-publisher",
   "main": "out/extension.js",
   "engines": {
