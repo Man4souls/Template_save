@@ -20,7 +20,7 @@ The `extension.insertCodeTemplate` command allows you to insert a saved code tem
 
 ### Function for Determining the Programming Language - getCategoryForLanguage
 
-The `getCategoryForLanguage` function uses a switch statement to determine the category for each supported programming language. Currently, the supported languages are `C`, `C++`, `Python`, and `JavaScript`. For each language, the function returns the corresponding category, for example, "c_cpp" for C and C++. If the language is not supported, the function returns undefined.
+The `getCategoryForLanguage` function uses a switch statement to determine the category for each supported programming language. Currently, the supported languages are `C`, `C++`, `Python`, `PHP`, `Rust` and `JavaScript`. For each language, the function returns the corresponding category, for example, "c_cpp" for C and C++. If the language is not supported, the function returns undefined.
 
 Overall, this extension provides a simple way to save and use code templates for various programming languages in Visual Studio Code.
 
@@ -53,7 +53,7 @@ First, you need to open the Command Palette. This can be done using the followin
 
 ### Функция определяющий язык программирования - getCategoryForLanguage
 
-В функции `getCategoryForLanguage` используется оператор switch для определения категории для каждого поддерживаемого языка программирования. В настоящее время поддерживаются языки `C`, `C++`, `Python` и `JavaScript`. Для каждого языка программа возвращает соответствующую категорию, например, "c_cpp" для C и C++. Если язык не поддерживается, функция вернет undefined.
+В функции `getCategoryForLanguage` используется оператор switch для определения категории для каждого поддерживаемого языка программирования. В настоящее время поддерживаются языки `C`, `C++`, `Python`, `PHP`, `Rust` и `JavaScript`. Для каждого языка программа возвращает соответствующую категорию, например, "c_cpp" для C и C++. Если язык не поддерживается, функция вернет undefined.
 
 
 В целом, это расширение предоставляет простой способ сохранения и использования шаблонов кода для различных языков программирования в Visual Studio Code.
