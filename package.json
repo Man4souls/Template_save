@@ -25,12 +25,12 @@
       {
         "command": "extension.saveCodeTemplate",
         "key": "ctrl+shift+k",
-        "when": "editorTextFocus && (editorLangId == 'cpp' || editorLangId == 'python' || editorLangId == 'javascript')"
+        "when": "editorTextFocus && (editorLangId == 'cpp' || editorLangId == 'python' || editorLangId == 'javascript' || editorLangId == 'php' || editorLangId == 'rust')"
       },
       {
         "command": "extension.insertCodeTemplate",
         "key": "ctrl+shift+i",
-        "when": "editorTextFocus && (editorLangId == 'cpp' || editorLangId == 'python' || editorLangId == 'javascript')"
+        "when": "editorTextFocus && (editorLangId == 'cpp' || editorLangId == 'python' || editorLangId == 'javascript' || editorLangId == 'php' || editorLangId == 'rust')"
       }
     ]
   },
