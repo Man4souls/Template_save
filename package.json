@@ -2,7 +2,7 @@
   "name": "templatesaver",
   "displayName": "Template saver",
   "description": "This extension for Visual Studio Code allows you to save and insert code templates for various programming languages. It provides two commands: extension.saveCodeTemplate and extension.insertCodeTemplate.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "your-publisher",
   "main": "out/extension.js",
   "engines": {
