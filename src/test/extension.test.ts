@@ -4,6 +4,7 @@ import * as assert from 'assert';
 // as well as import your extension to test it
 import * as vscode from 'vscode';
 // import * as myExtension from '../../extension';
+// Тесты вообще не писал т.к проверял вручную (нету смысла пока)
 
 suite('Extension Test Suite', () => {
 	vscode.window.showInformationMessage('Start all tests.');
