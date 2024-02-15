@@ -1,8 +1,8 @@
 {
-  "name": "my-extension",
-  "displayName": "My Extension",
-  "description": "Description of my extension",
-  "version": "1.0.1",
+  "name": "templatesaver",
+  "displayName": "Template saver",
+  "description": "This extension for Visual Studio Code allows you to save and insert code templates for various programming languages. It provides two commands: extension.saveCodeTemplate and extension.insertCodeTemplate.",
+  "version": "1.0.3",
   "publisher": "your-publisher",
   "main": "out/extension.js",
   "engines": {
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.60.0",
-    "@types/mocha": "^10.0.6",
+    "@types/mocha": "^10zzzzz.0.6",
     "@types/node": "18.x",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
