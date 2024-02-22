@@ -81,57 +81,6 @@ export function activate(context: vscode.ExtensionContext) {
   // Добавляем команду в подписку контекста расширения
   context.subscriptions.push(insertCodeTemplate);
 
-
-  // Делаю новую фичу, вы не видете этот код 0_0
-  // Команда просмотра списка шаблонов
-  // let listCodeTemplates = vscode.commands.registerCommand('extension.listCodeTemplates', async () => {
-  //   const templates = context.globalState.get('templates') || {};
-  //   const categories = Object.keys(templates);
-  //   const templateList = categories.map(category => {
-  //     return {
-  //       category,
-  //       templates: Object.keys(templates[category])
-  //     };
-  //   });
-  //   const templateItems = templateList.map(template => {
-  //     return {
-  //       label: template.category,
-  //       detail: template.templates.join(', ')
-  //     };
-  //   });
-  //   const items = templateItems.sort((a, b) => {
-  //     return a.label.localeCompare(b.label);
-  //   });
-  //   const choices = items.map(item => item.label);
-  //   const selectedTemplate = await vscode.window.showQuickPick(choices, {
-  //     placeHolder: 'Select a template category'
-  //   });
-  //   if (selectedTemplate) {
-  //     const selectedTemplateItem = items.find(item => item.label === selectedTemplate);
-  //     if (selectedTemplateItem) {
-  //       const templateName = await vscode.window.showQuickPick(selectedTemplateItem.detail.split(', '), {
-  //         placeHolder: 'Select a template'
-  //       });
-  //       if (templateName) {
-  //         const templateKey = `${selectedTemplateItem.category}_${templateName}`;
-  //         const savedSnippet = context.globalState.get(templateKey) as string;
-  //         if (savedSnippet) {
-  //           const editor = vscode.window.activeTextEditor;
-  //           if (editor) {
-  //             editor.edit(editBuilder => {
-  //               return editBuilder.insert(editor.selection.start, savedSnippet);
-  //             });
-  //           }
-  //         } else {
-  //           vscode.window.showErrorMessage(`Code template '${templateName}' not found.`);
-  //         }
-  //       }
-  //     }
-  //   }
-  // });
-  // context.subscriptions.push(listCodeTemplates);
-
-
   // Назначение сочетаний клавиш
   let keybindings: { key: string, command: string, when: string }[] = vscode.workspace.getConfiguration('keyboard').get('keybindings') || [];
   keybindings.push(
