@@ -3,8 +3,6 @@ import * as vscode from 'vscode';
 // Активация расширения
 export function activate(context: vscode.ExtensionContext) {
 
-  //Так как это расширение, часть лабы под номером 3; то сейчас будет в каждой строчке комменатрий, в духе - ну вот это. :3
-
   // Команда сохранения шаблона кода
   let saveCodeTemplate = vscode.commands.registerCommand('extension.saveCodeTemplate', async () => {
     // Получаем активный текстовый редактор
